@@ -1,11 +1,7 @@
-#include<iostream>
-#include<vector>
-#include"Card.h"
-#include"Deck.h"
+#include"SFML/Graphics.hpp"
+#include"Game.h"
+#include"Definitions.h"
 int main()
 {
-	Deck dek;
-	dek.generate_Deck();
-
-	system("pause");
+	toni::Game(screen_width, screen_height, "Flappy Golem");
 }
